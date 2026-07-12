@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    background-color: rgb(107, 134, 125);
+}
+.container{
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1.6vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6vmin;
+
+}
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 1rem black;
+    font-size: 7vmin;
+    color: cadetblue;
+    background-color: beige;
+}
+#reset-btn{
+    text-align: center;
+    height: 80px;
+    width: 170px;
+    padding: 15pxpx;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+#new-btn{
+    text-align: center;
+    height: 80px;
+    width: 170px;
+    padding: 15pxpx;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+#msg{
+    color: antiquewhite;
+    font-size: 8vmin;
+}
+.msg-container{
+    padding: 20px;
+    height: 250px;
+}
+.hide{
+    display: none;
+}
+main h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
